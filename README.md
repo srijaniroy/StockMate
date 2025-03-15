@@ -9,13 +9,6 @@ A Python-based command-line inventory management system, based on OOP principles
 - **Data Validation**: Ensure data integrity with unique ID checks, non-negative quantity and price validation, and contact number validation.
 - **Database Integration**: Store all data in an SQLite database for persistence and retrieval.
 
-## Technologies Used
-
-- **Python**: Core programming language for building the application logic.
-- **SQLite**: Lightweight, serverless relational database to store products, suppliers, and order details.
-- **Regular Expressions (Regex)**: Used for validating contact numbers and product details.
-- **Object-Oriented Programming (OOP)**: Application built using classes to represent Products, Suppliers, Orders, and Inventory management.
-
 
 ## Installation
 
@@ -34,6 +27,13 @@ A Python-based command-line inventory management system, based on OOP principles
    ```
 
 4. The application will create and use an SQLite database (`inventory.db`) to store data. The database will be automatically created if it doesn't exist.
+
+## Technologies Used
+
+- **Python**: Core programming language for building the application logic.
+- **SQLite**: Lightweight, serverless relational database to store products, suppliers, and order details.
+- **Regular Expressions (Regex)**: Used for validating contact numbers and product details.
+- **Object-Oriented Programming (OOP)**: Application built using classes to represent Products, Suppliers, Orders, and Inventory management.
 
 ## Database Schema
 
